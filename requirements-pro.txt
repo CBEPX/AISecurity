@@ -9,9 +9,9 @@ pydantic-settings==2.7.0
 
 # NLP / ML (CPU-only torch — ~200MB vs 2.5GB)
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.5.0+cpu
+torch==2.12.1+cpu
 sentence-transformers==3.3.0
-transformers==4.47.0
+transformers==5.10.1
 
 # Detection
 presidio-analyzer==2.2.355
@@ -24,14 +24,14 @@ numpy==2.1.0
 scipy==1.14.0
 
 # VLM Protection
-Pillow==11.0.0
+Pillow==12.3.0
 pytesseract==0.3.13
 
 # API
 httpx==0.28.0
-python-multipart==0.0.18
+python-multipart==0.0.31
 
 # Utilities
 pyyaml==6.0.2
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 structlog==24.4.0
